@@ -8,8 +8,8 @@ class IntersectionTest{
     public static void main(String[] args) {
         int[] nums1 = new int[]{1,2,5,1,3,10};
         int[] nums2 = new int[]{2,3,5,7};
-        Intersection so = new Intersection();
-       int[] results =  so.intersection(nums1,nums2);
+        Intersection intersection = new Intersection();
+       int[] results =  intersection.intersection(nums1, nums2);
         for(int result:results) {
 
             System.out.println(result);
